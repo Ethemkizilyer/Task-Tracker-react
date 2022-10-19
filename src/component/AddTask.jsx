@@ -11,7 +11,7 @@ const [reminder,setreminder]=useState(false)
 const handleSubmit =(e)=> {
     e.preventDefault();
     if(!plan){
-        alert("please Enter Text");
+        alert("Please Enter Text");
         
     }else{
     addTask({ plan, tarih, reminder });
